@@ -1,3 +1,20 @@
+body{
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #b1b1b1;
+}
+
+.container {
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+}
+
 .column{
     display: flex;
     column-gap: 30px;
