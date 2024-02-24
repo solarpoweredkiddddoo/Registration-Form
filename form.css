@@ -12,7 +12,7 @@ body{
     width: 100%;
     background: #fff;
     padding: 40px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .column{
@@ -21,7 +21,7 @@ body{
 
 .inputBox{
         position: relative;
-        width: 250px;
+        width: 320px;
     }
 
     .inputBox input{
@@ -42,7 +42,7 @@ body{
         padding: 10px;
         pointer-events: none;
         font-size: 80%;
-        color: green;
+        color: black;
         text-transform: uppercase;
         transition: 0.10s;
     }
@@ -56,4 +56,64 @@ body{
     letter-spacing: 0.2em;
 }
 
+}
+
+.column1{
+    display: flex;
+    column-gap: 50px;
+
+.inputBox{
+        position: relative;
+        width: 200px;
+    }
+
+    .inputBox input{
+        width: 80%;
+        padding: 10px;
+        border: 2px solid brown;
+        background: transparent;
+        border-radius: 10px;
+        color: black;
+        font-size: 70%;
+    }
+
+}
+
+
+
+    
+
+.input-Box{
+        position: relative;
+        width: 450px;
+    }
+
+    .input-Box input{
+        width: 100%;
+        padding: 10px;
+        border: 2px solid brown;
+        background: transparent;
+        border-radius: 10px;
+        color: black;
+        font-size: 80%;
+    }
+    .input-Box span{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px;
+        pointer-events: none;
+        font-size: 80%;
+        color: black;
+        text-transform: uppercase;
+        transition: 0.10s;
+    }
+.input-Box input:valid ~ span,
+.input-Box input:hover ~ span{
+    color:green;
+    transform: translateX(10px) translateY(-15px);
+    font-size: 80%;
+    padding: 0 10px; 
+    background: transparent;
+    letter-spacing: 0.2em;
 }
