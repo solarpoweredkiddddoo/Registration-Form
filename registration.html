@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="container" align="center">
-      <h1>Student Registration Form</h1>
+      <h1 id="heading">Student Registration Form</h1>
       <br />
       <br />
       <form action="#" class="form">
@@ -23,8 +23,6 @@
             <span> Last Name</span>
           </div>
         </div>
-        <br />
-        <br />
 
         <div class="column1">
           <div class="inputBox">
@@ -33,34 +31,42 @@
           </div>
 
           <div class="inputBox">
-            <input type="date" required="required" />
+            <input type="date" required="required" placeholder="" />
             <span> Birthday</span>
           </div>
 
-          <div class="inputBox">
-            <input type="text" required="required" />
-            <span> Gender</span>
+          <div class="gender-wrapper">
+            Gender:
+            <label
+              ><input type="radio" name="option" value="option1" /> Male</label
+            >
+            <label
+              ><input type="radio" name="option" value="option2" />
+              Female</label
+            >
+            <label
+              ><input type="radio" name="option" value="option3" />
+              Others
+            </label>
           </div>
         </div>
-        <br />
-        <br />
+        <div class="column2">
+          <div class="input-Box">
+            <input type="text" required="required" />
+            <span> Email Address</span>
+          </div>
 
-        <div class="input-Box">
-          <input type="text" required="required" />
-          <span> Email Address</span>
+          <div class="input-Box">
+            <input type="phone number" required="required" />
+            <span> Contact Number</span>
+          </div>
         </div>
-        <br />
-
-        <div class="input-Box">
-          <input type="phone number" required="required" />
-          <span> Contact Number</span>
-        </div>
-        <br />
 
         <div class="input-Box">
           <input type="text" required="required" />
           <span> Address</span>
         </div>
+        <input class="submit-btn" type="submit" value="Register" />
       </form>
     </div>
   </body>

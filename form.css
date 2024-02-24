@@ -1,96 +1,133 @@
 body {
-  min-height: 75vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #b1b1b1;
+  background-image: linear-gradient(#510a19, #8d263e, #1b2744);
+}
+
+#heading {
+  color: #ffa586;
 }
 
 .container {
   position: relative;
-  max-width: 700px;
+  max-width: 600px;
   width: 100%;
-  background: #fff;
+  border: 1px solid black;
+  box-shadow: 3px 5px 20px;
   padding: 40px;
   border-radius: 10px;
+  margin-top: 20px;
 }
 
 .column {
   display: flex;
   column-gap: 50px;
+  margin-bottom: 20px;
+}
 
-  .inputBox {
-    position: relative;
-    width: 320px;
-  }
+.column .inputBox {
+  position: relative;
+  width: 320px;
+}
 
-  .inputBox input {
-    width: 100%;
-    padding: 10px;
-    border: 2px solid brown;
-    background: transparent;
-    border-radius: 10px;
-    color: black;
-    font-size: 80%;
-    transition: 0.1s;
-  }
+.column .inputBox input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ffa586;
+  background: transparent;
+  border-radius: 10px;
+  color: #ffa586;
+  font-size: 80%;
+  transition: 0.1s;
+}
 
-  .inputBox span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 10px;
-    pointer-events: none;
-    font-size: 80%;
-    color: black;
-    text-transform: uppercase;
-    transition: 0.1s;
-  }
-  .inputBox input:valid ~ span,
-  .inputBox input:hover ~ span {
-    color: green;
-    transform: translateX(10px) translateY(-15px);
-    font-size: 80%;
-    padding: 0 10px;
-    background: transparent;
-    letter-spacing: 0.2em;
-  }
+.column .inputBox span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 80%;
+  color: #ffa586;
+  transition: 0.1s;
+}
+
+.column .inputBox input:valid ~ span,
+.column .inputBox input:hover ~ span {
+  color: #ffa586;
+  transform: translateX(10px) translateY(-15px);
+  font-size: 80%;
+  padding: 0 10px;
+  background: transparent;
+  letter-spacing: 0.2em;
 }
 
 .column1 {
   display: flex;
+  column-gap: 65px;
+  margin-bottom: 20px;
+}
+
+.column1 .inputBox {
+  position: relative;
+  width: 150px;
+}
+
+.column1 .inputBox input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ffa586;
+  background: transparent;
+  border-radius: 10px;
+  color: #ffa586;
+  font-size: 80%;
+  transition: 0.1s;
+}
+
+.column1 .inputBox span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 80%;
+  color: #ffa586;
+  transition: 0.1s;
+}
+
+.column1 .inputBox input:valid ~ span,
+.column1 .inputBox input:hover ~ span {
+  color: #ffa586;
+  transform: translateX(10px) translateY(-15px);
+  font-size: 80%;
+  padding: 0 10px;
+  background: transparent;
+  letter-spacing: 0.2em;
+}
+
+.column2 {
+  display: flex;
   column-gap: 50px;
-
-  .inputBox {
-    position: relative;
-    width: 200px;
-  }
-
-  .inputBox input {
-    width: 80%;
-    padding: 10px;
-    border: 2px solid brown;
-    background: transparent;
-    border-radius: 10px;
-    color: black;
-    font-size: 70%;
-  }
 }
 
 .input-Box {
   position: relative;
-  width: 450px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .input-Box input {
   width: 100%;
   padding: 10px;
-  border: 2px solid brown;
+  border: 2px solid #ffa586;
   background: transparent;
   border-radius: 10px;
-  color: black;
+  color: #ffa586;
   font-size: 80%;
 }
+
 .input-Box span {
   position: absolute;
   top: 0;
@@ -98,16 +135,32 @@ body {
   padding: 10px;
   pointer-events: none;
   font-size: 80%;
-  color: black;
-  text-transform: uppercase;
+  color: #ffa586;
   transition: 0.1s;
 }
+
 .input-Box input:valid ~ span,
 .input-Box input:hover ~ span {
-  color: green;
+  color: #ffa586;
   transform: translateX(10px) translateY(-15px);
   font-size: 80%;
   padding: 0 10px;
   background: transparent;
   letter-spacing: 0.2em;
+}
+
+.gender-wrapper {
+  border: 2px solid #ffa586;
+  background: transparent;
+  border-radius: 10px;
+  color: #ffa586;
+  font-size: 80%;
+}
+
+.submit-btn {
+  padding: 10px;
+  border: 2px solid #ffa586;
+  background: transparent;
+  border-radius: 10px;
+  color: #ffa586;
 }
