@@ -17,5 +17,43 @@ body{
 
 .column{
     display: flex;
-    column-gap: 30px;
+    column-gap: 50px;
+
+.inputBox{
+        position: relative;
+        width: 250px;
+    }
+
+    .inputBox input{
+        width: 100%;
+        padding: 10px;
+        border: 2px solid brown;
+        background: transparent;
+        border-radius: 10px;
+        color: black;
+        font-size: 80%;
+        transition: 0.10s;
+    }
+
+    .inputBox span{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px;
+        pointer-events: none;
+        font-size: 80%;
+        color: green;
+        text-transform: uppercase;
+        transition: 0.10s;
+    }
+.inputBox input:valid ~ span,
+.inputBox input:hover ~ span{
+    color:green;
+    transform: translateX(10px) translateY(-15px);
+    font-size: 80%;
+    padding: 0 10px; 
+    background: transparent;
+    letter-spacing: 0.2em;
+}
+
 }
