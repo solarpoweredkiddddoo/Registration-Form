@@ -164,3 +164,90 @@ body {
   border-radius: 10px;
   color: #ffa586;
 }
+
+
+.column3 {
+  display: flex;
+  column-gap: 65px;
+  margin-bottom: 20px;
+}
+
+.column3 .inputBox {
+  position: relative;
+  width: 320px;
+}
+
+.column3 .inputBox input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ffa586;
+  background: transparent;
+  border-radius: 10px;
+  color: #ffa586;
+  font-size: 80%;
+  transition: 0.1s;
+}
+
+.column3 .inputBox span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 80%;
+  color: #ffa586;
+  transition: 0.1s;
+}
+
+.column3 .inputBox input:valid ~ span,
+.column3 .inputBox input:hover ~ span {
+  color: #ffa586;
+  transform: translateX(10px) translateY(-15px);
+  font-size: 80%;
+  padding: 0 10px;
+  background: transparent;
+  letter-spacing: 0.2em;
+}
+
+.column4 {
+  display: flex;
+  column-gap: 65px;
+  margin-bottom: 20px;
+}
+
+.column4 .inputBox {
+  position: relative;
+  width: 150px;
+}
+
+.column4 .inputBox input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ffa586;
+  background: transparent;
+  border-radius: 10px;
+  color: #ffa586;
+  font-size: 80%;
+  transition: 0.1s;
+}
+
+.column4 .inputBox span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 80%;
+  color: #ffa586;
+  transition: 0.1s;
+}
+
+.column4 .inputBox input:valid ~ span,
+.column4 .inputBox input:hover ~ span {
+  color: #ffa586;
+  transform: translateX(10px) translateY(-15px);
+  font-size: 80%;
+  padding: 0 10px;
+  background: transparent;
+  letter-spacing: 0.2em;
+}
