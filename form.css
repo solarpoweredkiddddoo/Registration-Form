@@ -3,7 +3,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(images/flower.jpg);
+  background-image: url(flower.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
@@ -50,7 +50,7 @@ body {
   border: 2px solid white;
 
   border-radius: 10px;
-  color: white;
+  color: black;
   font-size: 80%;
   transition: 0.1s;
 }
@@ -91,7 +91,7 @@ body {
   padding: 10px;
   border: 2px solid white;
   border-radius: 10px;
-  color: white;
+  color: black;
   font-size: 80%;
   transition: 0.1s;
 }
@@ -132,7 +132,7 @@ body {
   padding: 10px;
   border: 2px solid white;
   border-radius: 10px;
-  color: white;
+  color: black;
   font-size: 80%;
 }
 
@@ -269,10 +269,9 @@ body {
 .column3 .inputBox input {
   width: 100%;
   padding: 10px;
-  border: 2px solid #ffa586;
-  background: transparent;
+  border: 2px solid white;
   border-radius: 10px;
-  color: #ffa586;
+  color: black;
   font-size: 80%;
   transition: 0.1s;
 }
@@ -284,17 +283,16 @@ body {
   padding: 10px;
   pointer-events: none;
   font-size: 80%;
-  color: #ffa586;
+  color: black;
   transition: 0.1s;
 }
 
 .column3 .inputBox input:valid ~ span,
 .column3 .inputBox input:hover ~ span {
-  color: #ffa586;
+  color: black;
   transform: translateX(10px) translateY(-15px);
   font-size: 80%;
   padding: 0 10px;
-  background: transparent;
   letter-spacing: 0.2em;
 }
 
@@ -312,10 +310,9 @@ body {
 .column4 .inputBox input {
   width: 100%;
   padding: 10px;
-  border: 2px solid #ffa586;
-  background: transparent;
+  border: 2px solid white;
   border-radius: 10px;
-  color: #ffa586;
+  color: black;
   font-size: 80%;
   transition: 0.1s;
 }
@@ -327,16 +324,15 @@ body {
   padding: 10px;
   pointer-events: none;
   font-size: 80%;
-  color: #ffa586;
+  color: black;
   transition: 0.1s;
 }
 
 .column4 .inputBox input:valid ~ span,
 .column4 .inputBox input:hover ~ span {
-  color: #ffa586;
+  color: black;
   transform: translateX(10px) translateY(-15px);
   font-size: 80%;
   padding: 0 10px;
-  background: transparent;
   letter-spacing: 0.2em;
 }
