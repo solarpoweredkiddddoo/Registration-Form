@@ -1,3 +1,4 @@
+/* Set the minimum height of the body to 100vh, center align the content, and set the background image */
 body {
   min-height: 100vh;
   display: flex;
@@ -8,11 +9,13 @@ body {
   background-size: cover;
 }
 
+/* Style the heading */
 .heading {
   border-bottom: 2px solid white;
   padding: 10px;
 }
 
+/* Style the container */
 .container {
   position: relative;
   max-width: 600px;
@@ -26,35 +29,38 @@ body {
   background: #f7b099;
 }
 
+/* Style the overlay */
 #overlay {
   position: fixed;
   right: -30px;
   top: 265px;
-  
 }
 
+/* Style the first column */
 .column {
   display: flex;
   column-gap: 50px;
   margin-bottom: 20px;
 }
 
+/* Style the input box for the first column */
 .column .inputBox {
   position: relative;
   width: 320px;
 }
 
+/* Style the input field for the first column */
 .column .inputBox input {
   width: 100%;
   padding: 10px;
   border: 2px solid white;
-
   border-radius: 10px;
   color: black;
   font-size: 80%;
   transition: 0.1s;
 }
 
+/* Style the label for the input field for the first column */
 .column .inputBox span {
   position: absolute;
   top: 0;
@@ -66,6 +72,7 @@ body {
   transition: 0.1s;
 }
 
+/* Style the label for the input field for the first column when it is valid or hovered over */
 .column .inputBox input:valid ~ span,
 .column .inputBox input:hover ~ span {
   color: black;
@@ -75,17 +82,20 @@ body {
   letter-spacing: 0.2em;
 }
 
+/* Style the second column */
 .column1 {
   display: flex;
   column-gap: 65px;
   margin-bottom: 20px;
 }
 
+/* Style the input box for the second column */
 .column1 .inputBox {
   position: relative;
   width: 150px;
 }
 
+/* Style the input field for the second column */
 .column1 .inputBox input {
   width: 100%;
   padding: 10px;
@@ -96,6 +106,7 @@ body {
   transition: 0.1s;
 }
 
+/* Style the label for the input field for the second column */
 .column1 .inputBox span {
   position: absolute;
   top: 0;
@@ -107,6 +118,7 @@ body {
   transition: 0.1s;
 }
 
+/* Style the label for the input field for the second column when it is valid or hovered over */
 .column1 .inputBox input:valid ~ span,
 .column1 .inputBox input:hover ~ span {
   color: black;
@@ -116,17 +128,20 @@ body {
   letter-spacing: 0.2em;
 }
 
+/* Style the third column */
 .column2 {
   display: flex;
   column-gap: 50px;
 }
 
+/* Style the input box for the third column */
 .input-Box {
   position: relative;
   width: 100%;
   margin-bottom: 20px;
 }
 
+/* Style the input field for the third column */
 .input-Box input {
   width: 100%;
   padding: 10px;
@@ -136,6 +151,7 @@ body {
   font-size: 80%;
 }
 
+/* Style the label for the input field for the third column */
 .input-Box span {
   position: absolute;
   top: 0;
@@ -147,6 +163,7 @@ body {
   transition: 0.1s;
 }
 
+/* Style the label for the input field for the third column when it is valid or hovered over */
 .input-Box input:valid ~ span,
 .input-Box input:hover ~ span {
   color: black;
@@ -156,17 +173,20 @@ body {
   letter-spacing: 0.2em;
 }
 
+/* Style the fourth column */
 .column3 {
   display: flex;
   column-gap: 65px;
   margin-bottom: 20px;
 }
 
+/* Style the input box for the fourth column */
 .column3 .inputBox {
   position: relative;
   width: 320px;
 }
 
+/* Style the input field for the fourth column */
 .column3 .inputBox input {
   width: 100%;
   padding: 10px;
@@ -177,6 +197,7 @@ body {
   transition: 0.1s;
 }
 
+/* Style the label for the input field for the fourth column */
 .column3 .inputBox span {
   position: absolute;
   top: 0;
@@ -186,9 +207,9 @@ body {
   font-size: 80%;
   transition: 0.1s;
   color: black;
-
 }
 
+/* Style the label for the input field for the fourth column when it is valid or hovered over */
 .column3 .inputBox input:valid ~ span,
 .column3 .inputBox input:hover ~ span {
   color: black;
@@ -198,17 +219,20 @@ body {
   letter-spacing: 0.2em;
 }
 
+/* Style the fifth column */
 .column4 {
   display: flex;
   column-gap: 65px;
   margin-bottom: 20px;
 }
 
+/* Style the input box for the fifth column */
 .column4 .inputBox {
   position: relative;
   width: 150px;
 }
 
+/* Style the input field for the fifth column */
 .column4 .inputBox input {
   width: 100%;
   padding: 10px;
@@ -219,6 +243,7 @@ body {
   transition: 0.1s;
 }
 
+/* Style the label for the input field for the fifth column */
 .column4 .inputBox span {
   position: absolute;
   top: 0;
@@ -230,6 +255,7 @@ body {
   transition: 0.1s;
 }
 
+/* Style the label for the input field for the fifth column when it is valid or hovered over */
 .column4 .inputBox input:valid ~ span,
 .column4 .inputBox input:hover ~ span {
   color: black;
@@ -239,6 +265,7 @@ body {
   letter-spacing: 0.2em;
 }
 
+/* Style the gender wrapper */
 .gender-wrapper {
   border: 2px solid white;
   border-radius: 10px;
@@ -247,92 +274,10 @@ body {
   background-color: white;
 }
 
+/* Style the submit button */
 .submit-btn {
   padding: 10px;
   border: 2px solid white;
   border-radius: 10px;
   color: black;
-}
-
-
-.column3 {
-  display: flex;
-  column-gap: 65px;
-  margin-bottom: 20px;
-}
-
-.column3 .inputBox {
-  position: relative;
-  width: 320px;
-}
-
-.column3 .inputBox input {
-  width: 100%;
-  padding: 10px;
-  border: 2px solid white;
-  border-radius: 10px;
-  color: black;
-  font-size: 80%;
-  transition: 0.1s;
-}
-
-.column3 .inputBox span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 10px;
-  pointer-events: none;
-  font-size: 80%;
-  color: black;
-  transition: 0.1s;
-}
-
-.column3 .inputBox input:valid ~ span,
-.column3 .inputBox input:hover ~ span {
-  color: black;
-  transform: translateX(10px) translateY(-15px);
-  font-size: 80%;
-  padding: 0 10px;
-  letter-spacing: 0.2em;
-}
-
-.column4 {
-  display: flex;
-  column-gap: 65px;
-  margin-bottom: 20px;
-}
-
-.column4 .inputBox {
-  position: relative;
-  width: 150px;
-}
-
-.column4 .inputBox input {
-  width: 100%;
-  padding: 10px;
-  border: 2px solid white;
-  border-radius: 10px;
-  color: black;
-  font-size: 80%;
-  transition: 0.1s;
-}
-
-.column4 .inputBox span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 10px;
-  pointer-events: none;
-  font-size: 80%;
-  color: black;
-  transition: 0.1s;
-}
-
-.column4 .inputBox input:valid ~ span,
-.column4 .inputBox input:hover ~ span {
-  color: black;
-  transform: translateX(10px) translateY(-15px);
-  font-size: 80%;
-  padding: 0 10px;
-  letter-spacing: 0.2em;
 }
